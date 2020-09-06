@@ -1,0 +1,36 @@
+{
+  "name": "meals-api",
+  "version": "1.0.0",
+  "description": "meals Rest Api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js "
+  },
+  "keywords": [
+    "Meals",
+    "Rest",
+    "Api",
+    "Node"
+  ],
+  "author": "Mersal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  }
+}
