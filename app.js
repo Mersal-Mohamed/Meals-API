@@ -13,10 +13,6 @@ const exphbs  = require('express-handlebars');
 //connecting to database
 const db = require('./config/db.config')
 
-//views folder
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
-
 //middle wares
 app.use(logger("dev"));
 app.use(express.urlencoded({
